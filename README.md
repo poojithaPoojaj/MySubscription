@@ -19,8 +19,16 @@ of the newspaper subscriptions for the user budget and print it.
     Sample Input : 35
     Sample Output: {“BM”, “HT”}, {“Hindu”, “BM”}
 
+# This Project Contains Tests
+ This Project contains Some tests like
+
+    1. checkAllNewsPaperDetailsAreStoring()
+    2. checkTotalPricesDetailsAreCorrect()
+    3. checkDetailsAreStoringCorrectly()
+    4. checkAllCombinationsAreGettingByEnteringSampleUserBudget()
+
 # How To Use Project
- Clone the project by using Url "git@github.com:poojithaPoojaj/MySubscription.git"
- 
+Clone the project by using Url "git@github.com:poojithaPoojaj/MySubscription.git"
+
 # Author
  Poojitha
