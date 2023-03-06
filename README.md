@@ -20,4 +20,7 @@ of the newspaper subscriptions for the user budget and print it.
     Sample Output: {“BM”, “HT”}, {“Hindu”, “BM”}
 
 # How To Use Project
-
+ Clone the project by using Url "git@github.com:poojithaPoojaj/MySubscription.git"
+ 
+# Author
+ Poojitha

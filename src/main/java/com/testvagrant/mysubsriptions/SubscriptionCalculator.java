@@ -25,7 +25,6 @@ public class SubscriptionCalculator {
     }
     public ArrayList<ArrayList<NewsPaperType>> getCombinations(int userBudget){
         HashMap<NewsPaperType,Double> details=new NewsPaperDetails().getDetails();
-        System.out.println(details);
         ArrayList<NewsPaperType> NewsPaperTypes = new ArrayList<>(details.keySet());
         ArrayList<Double> prices = new ArrayList<>(details.values());
        return generateCombinations(NewsPaperTypes, prices,userBudget);

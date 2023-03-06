@@ -29,7 +29,7 @@ public class NewsPaperDetails {
             prices.add(new PriceCalculator("Sunday",4).getCost());
 
             NewsPaper newspaper=new NewsPaper(NewsPaperType.HINDU,prices);
-            newspaperDetails.put(newspaper.getNewsPaperType(),newspaper.getNewsPaperWeeklyPrice());
+            newspaperDetails.put(newspaper.getName(),newspaper.getNewsPaperWeeklyPrice());
         }
         public void setDetailsForTOI() {
             List<Double> prices = new ArrayList<>();
@@ -43,7 +43,7 @@ public class NewsPaperDetails {
             prices.add(new PriceCalculator("Sunday", 6).getCost());
 
             NewsPaper newspaper = new NewsPaper(NewsPaperType.TOI, prices);
-            newspaperDetails.put(newspaper.getNewsPaperType(),newspaper.getNewsPaperWeeklyPrice());
+            newspaperDetails.put(newspaper.getName(),newspaper.getNewsPaperWeeklyPrice());
         }
         public void setDetailsForET(){
             List<Double> prices = new ArrayList<>();
@@ -57,7 +57,7 @@ public class NewsPaperDetails {
             prices.add(new PriceCalculator("Sunday", 10).getCost());
 
             NewsPaper newspaper = new NewsPaper(NewsPaperType.ET, prices);
-            newspaperDetails.put(newspaper.getNewsPaperType(),newspaper.getNewsPaperWeeklyPrice());
+            newspaperDetails.put(newspaper.getName(),newspaper.getNewsPaperWeeklyPrice());
 
         }
         public void setDetailsForBM(){
@@ -72,7 +72,7 @@ public class NewsPaperDetails {
             prices.add(new PriceCalculator("Sunday", 1.5).getCost());
 
             NewsPaper newspaper = new NewsPaper(NewsPaperType.BM, prices);
-            newspaperDetails.put(newspaper.getNewsPaperType(),newspaper.getNewsPaperWeeklyPrice());
+            newspaperDetails.put(newspaper.getName(),newspaper.getNewsPaperWeeklyPrice());
 
         }
         public void setDetailsForHT(){
@@ -87,7 +87,7 @@ public class NewsPaperDetails {
             prices.add(new PriceCalculator("Sunday", 4).getCost());
 
             NewsPaper newspaper = new NewsPaper(NewsPaperType.HT, prices);
-            newspaperDetails.put(newspaper.getNewsPaperType(),newspaper.getNewsPaperWeeklyPrice());
+            newspaperDetails.put(newspaper.getName(),newspaper.getNewsPaperWeeklyPrice());
 
         }
     }
